@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uj.wmii.pwj.delegations.CalcTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-01-16T20:52:28" hostname="Mac" time="0.052">
+  <properties/>
+  <testcase name="1 Short-Waw-Berlin" classname="uj.wmii.pwj.delegations.CalcTest" time="0.039"/>
+  <testcase name="2 Long-Waw-Berlin" classname="uj.wmii.pwj.delegations.CalcTest" time="0.001"/>
+  <testcase name="3 Long-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.001"/>
+  <testcase name="4 Short-Waw-Kiev" classname="uj.wmii.pwj.delegations.CalcTest" time="0.001"/>
+  <testcase name="5 Negative-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.0"/>
+  <testcase name="6 Very-long-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.0"/>
+  <testcase name="7 1day-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.0"/>
+  <testcase name="8 Zero-time-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.0"/>
+  <testcase name="9 Short-Waw-Lnd" classname="uj.wmii.pwj.delegations.CalcTest" time="0.001"/>
+  <testcase name="10 1min-Waw" classname="uj.wmii.pwj.delegations.CalcTest" time="0.001"/>
+  <system-out><![CDATA[start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-02 15:00 Europe/Berlin, rate: 49.00, expected: 16.33, calculated: 16.33
+start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-06 14:00 Europe/Berlin, rate: 49.00, expected: 212.33, calculated: 212.33
+start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-06 14:00 Europe/Warsaw, rate: 35.00, expected: 151.67, calculated: 151.67
+start: 2022-01-02 11:00 Europe/Warsaw, end: 2022-01-02 19:30 Europe/Kiev, rate: 30.00, expected: 10.00, calculated: 10.00
+start: 2022-01-02 11:00 Europe/Warsaw, end: 2022-01-02 10:30 Europe/Warsaw, rate: 41.00, expected: 0.00, calculated: 0.00
+start: 2022-02-03 10:00 Europe/Warsaw, end: 2022-03-09 09:30 Europe/Warsaw, rate: 10.00, expected: 340.00, calculated: 340.00
+start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-03 00:00 Europe/Warsaw, rate: 38.00, expected: 38.00, calculated: 38.00
+start: 2022-01-02 00:07 Europe/Warsaw, end: 2022-01-02 00:07 Europe/Warsaw, rate: 38.00, expected: 0.00, calculated: 0.00
+start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-02 00:00 Europe/London, rate: 33.00, expected: 11.00, calculated: 11.00
+start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-02 00:01 Europe/Warsaw, rate: 33.00, expected: 11.00, calculated: 11.00
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

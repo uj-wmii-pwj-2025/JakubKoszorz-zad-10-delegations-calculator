@@ -1,0 +1,11 @@
+name,start,end,dailyRate,expected
+Short-Waw-Berlin,2022-01-02 13:00 Europe/Warsaw,2022-01-02 15:00 Europe/Berlin,49.00,16.33
+Long-Waw-Berlin,2022-01-02 13:00 Europe/Warsaw,2022-01-06 14:00 Europe/Berlin,49.00,212.33
+Long-Waw,2022-01-02 13:00 Europe/Warsaw,2022-01-06 14:00 Europe/Warsaw,35.00,151.67
+Short-Waw-Kiev,2022-01-02 11:00 Europe/Warsaw,2022-01-02 19:30 Europe/Kiev,30.00,10.00
+Negative-Waw,2022-01-02 11:00 Europe/Warsaw,2022-01-02 10:30 Europe/Warsaw,41.00,0.00
+Very-long-Waw,2022-02-03 10:00 Europe/Warsaw,2022-03-09 09:30 Europe/Warsaw,10.00,340.00
+1day-Waw,2022-01-02 00:00 Europe/Warsaw,2022-01-03 00:00 Europe/Warsaw,38.00,38.00
+Zero-time-Waw,2022-01-02 00:07 Europe/Warsaw,2022-01-02 00:07 Europe/Warsaw,38.00,0.00
+Short-Waw-Lnd,2022-01-02 00:00 Europe/Warsaw,2022-01-02 00:00 Europe/London,33.00,11.00
+1min-Waw,2022-01-02 00:00 Europe/Warsaw,2022-01-02 00:01 Europe/Warsaw,33.00,11.00

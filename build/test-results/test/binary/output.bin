@@ -1,0 +1,11 @@
+|start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-02 15:00 Europe/Berlin, rate: 49.00, expected: 16.33, calculated: 16.33
+~start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-06 14:00 Europe/Berlin, rate: 49.00, expected: 212.33, calculated: 212.33
+~start: 2022-01-02 13:00 Europe/Warsaw, end: 2022-01-06 14:00 Europe/Warsaw, rate: 35.00, expected: 151.67, calculated: 151.67
+zstart: 2022-01-02 11:00 Europe/Warsaw, end: 2022-01-02 19:30 Europe/Kiev, rate: 30.00, expected: 10.00, calculated: 10.00
+zstart: 2022-01-02 11:00 Europe/Warsaw, end: 2022-01-02 10:30 Europe/Warsaw, rate: 41.00, expected: 0.00, calculated: 0.00
+~start: 2022-02-03 10:00 Europe/Warsaw, end: 2022-03-09 09:30 Europe/Warsaw, rate: 10.00, expected: 340.00, calculated: 340.00
+|start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-03 00:00 Europe/Warsaw, rate: 38.00, expected: 38.00, calculated: 38.00
+	zstart: 2022-01-02 00:07 Europe/Warsaw, end: 2022-01-02 00:07 Europe/Warsaw, rate: 38.00, expected: 0.00, calculated: 0.00
+
+|start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-02 00:00 Europe/London, rate: 33.00, expected: 11.00, calculated: 11.00
+|start: 2022-01-02 00:00 Europe/Warsaw, end: 2022-01-02 00:01 Europe/Warsaw, rate: 33.00, expected: 11.00, calculated: 11.00
